@@ -11,10 +11,12 @@ class DockingStation
   end
 
 	def dock(bike)
-		fail 'Docking station full' if @bikes.length >= 20
+		fail 'Docking station full' if @bikes. >= 20
 		@bikes << bike
 	end
-
+  DEFAULT_CAPACITY = 20
 	attr_reader :bikes
 
 end
+
+
