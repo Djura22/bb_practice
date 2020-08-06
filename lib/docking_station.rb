@@ -21,14 +21,13 @@ class DockingStation
   private
 
   def full?
-    @bikes.length >= 20
+    @bikes.length >= DEFAULT_CAPACITY
   end
 
   def empty?
     @bikes.empty?
   end
 	
-
 end
 
 
